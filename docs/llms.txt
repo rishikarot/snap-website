@@ -1,0 +1,24 @@
+# snap
+
+> snap is a simple business work OS connecting notes, tasks, projects, people, attendance, wage preparation, worksheets, invoices and project costs. Its AI agent is aigen.
+
+Brand: snap (lowercase). Tagline: from notes to action. Development began in 2025.
+
+## Public information
+- [Product](https://snapworkos.com/product.html)
+- [Aigen](https://snapworkos.com/aigen.html)
+- [Pricing](https://snapworkos.com/pricing.html)
+- [Usage and AI limits](https://snapworkos.com/usage.html)
+- [FAQs](https://snapworkos.com/faq.html)
+- [Demo access](https://snapworkos.com/demo.html)
+- [Guided walkthrough](https://snapworkos.com/walkthrough.html)
+
+## Commercial model
+Free: one user, 5 projects, 10000 retained rows, 500 MB file storage, 10 MB per file, 100 automation actions/month, 50 Aigen credits/workspace/month.
+Pro: USD 9/user/month or USD 96/user/year (USD 8 monthly equivalent). Unlimited projects and rows for normal business use, 100 GB files/workspace, 100 MB per file, 10000 automation actions/workspace/month, 1000 Aigen credits/paid user/month pooled. Extra 100 GB: USD 5/month or USD 48/year.
+Demo: 7 days. Registered Pro trial: 14 days. Product access depends on the connected application. Contact enquiries are saved by this website.
+Company: TechMind Software LLC, Dubai, UAE. Contact: business@techmindsoftware.com.
+
+Custom solutions: shape project tasks, worksheets and structured fields around your own business requirements. This does not imply automatic arbitrary application development or unsupported integrations.
+Early joining: while enabled, first-year Pro yearly price is USD 80/user, renewing at current USD 96/user/year. Monthly remains USD 9/user.
+Registration, demo requests and contact enquiries are saved in the snap website database for team follow-up. Product workspace activation is separate.

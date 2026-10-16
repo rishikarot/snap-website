@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://snapworkos.com/sitemap.xml
+
+User-agent: *
+Disallow: /admin
+Disallow: /api/

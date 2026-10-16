@@ -1,0 +1,1 @@
+window.SNAP_CONFIG=Object.freeze({"signupUrl":null,"loginUrl":"https://auth.techmindsoftware.com","demoUrl":null,"api":{"demoRequestUrl":null,"demoVerifyUrl":null,"registerUrl":"https://ludhpcyuhvifkhqoanyt.supabase.co/functions/v1/website-api/register"},"allowedRedirectOrigins":["https://auth.techmindsoftware.com"],"productTermsReady":false});
