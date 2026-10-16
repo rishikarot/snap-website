@@ -18,3 +18,24 @@
 
 /* Form and CTA fixes from real-device review. */
 .page-actions{margin:24px 0 0!important;padding:0;align-items:center;gap:12px}.page-actions .button{margin:0}.onboarding-grid .check-label,.registration-card .check-label{display:grid!important;grid-template-columns:18px minmax(0,1fr);gap:10px;align-items:start;line-height:1.65}.check-label>input{width:17px;height:17px;margin:3px 0 0!important;accent-color:#111329}.check-label>span{display:block;min-width:0}.check-label a{display:inline!important;text-decoration:underline}.demo-input,select,input,textarea{font-size:16px}select.demo-input,.demo-panel select{appearance:none;-webkit-appearance:none;background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23111329' stroke-width='1.7'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");background-position:right 14px center;background-repeat:no-repeat;padding-right:42px!important;min-height:46px;border-radius:10px;line-height:1.4}.demo-panel input{min-height:44px;border-radius:10px}.demo-panel td{padding-top:12px;padding-bottom:12px}.demo-panel select:focus-visible,.demo-input:focus-visible{outline:3px solid #6a80d4;outline-offset:2px}.early-offer{max-width:1000px;margin:0 auto 25px;padding:25px 28px;background:#ffdc63;border:1px solid #e1b82d;border-radius:19px}.offer-kicker{display:inline-block;background:#111329;color:white;border-radius:20px;padding:5px 12px;font-size:12px;font-weight:800;margin-bottom:14px}.early-offer h2{font-size:29px;margin:0 0 10px}.early-offer p{margin:0;color:#373338;font-size:14px;line-height:1.7}.aigen-mascot{display:block;width:88px;height:88px;margin:20px 0}.aigen-mascot-inline{width:36px;height:36px;vertical-align:middle}.custom-solution{background:#fff2bd}.settings-pending{font-size:12px;color:#666}.admin-login-card input[type=email]{width:100%;margin-bottom:18px}.admin-login-card label{margin-top:12px}[data-snap-template]{font:inherit;color:inherit}[hidden]{display:none!important}@media(max-width:800px){.early-offer{padding:22px}.early-offer h2{font-size:25px}.aigen-mascot{width:72px;height:72px}.page-actions{flex-wrap:wrap}}
+
+/* FAQ mobile alignment: reserve an independent icon column without squeezing titles. */
+.faq-item>summary{position:relative;display:block!important;min-height:48px;padding:8px 54px 8px 0!important;white-space:normal;overflow-wrap:anywhere;text-align:left;line-height:1.55!important;font-size:16px!important;letter-spacing:normal;list-style:none}
+.faq-item>summary::-webkit-details-marker{display:none}
+.faq-item>summary>span{position:absolute;right:0;top:7px;display:grid!important;place-items:center;width:32px;height:32px;border:1px solid #dedbcd;border-radius:50%;background:#fff8df;font-size:0!important;line-height:1!important;transform:none!important;color:#17233b}
+.faq-item>summary>span:before,.faq-item>summary>span:after{content:'';position:absolute;width:12px;height:2px;border-radius:2px;background:currentColor}
+.faq-item>summary>span:after{transform:rotate(90deg)}
+.faq-item[open]>summary>span{background:#ffd34d;border-color:#ffd34d}
+.faq-item[open]>summary>span:after{display:none}
+.faq-item>summary:focus-visible{outline:3px solid #3d58c6;outline-offset:4px;border-radius:8px}
+@media(max-width:600px){.faq-item>summary{font-size:16px!important;padding-right:46px!important}.faq-item>p{font-size:15px;line-height:1.75}.faq-item{min-width:0}}
+
+/* Explicit inactive tab colour prevents mobile browser default blue text. */
+.view-selector button:not([aria-pressed="true"]):not([aria-selected="true"]):not(.active),
+.billing-toggle button:not([aria-pressed="true"]),
+[role="tab"][aria-selected="false"],
+.admin-tabs button[aria-pressed="false"]{color:#283349;-webkit-text-fill-color:#283349;font-weight:700;opacity:1}
+.view-selector button:focus-visible,.billing-toggle button:focus-visible,[role="tab"]:focus-visible{outline:3px solid #3d58c6;outline-offset:3px}
+
+/* Mobile app footer options on every public page. */
+footer .snap-footer-apps{margin-top:18px}footer .snap-store-row{display:flex;flex-wrap:wrap;gap:8px}footer .snap-store{display:inline-flex!important;align-items:center;gap:9px;min-height:54px;min-width:152px;padding:10px 12px!important;background:#17233b;color:#fff!important;border-radius:12px;text-decoration:none!important;line-height:1.2}footer .snap-store svg{width:22px;height:26px;flex-shrink:0}footer .snap-store small{display:block;font-size:9px;letter-spacing:.05em;color:#e0e5ef}footer .snap-store strong{display:block;margin-top:3px;font-size:15px;font-weight:800}footer .snap-store[aria-disabled=true]{cursor:default}footer .snap-store:focus-visible{outline:3px solid #a56d00;outline-offset:4px}
